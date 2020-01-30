@@ -1,0 +1,59 @@
+{
+	"name": "translate-lang",
+	"displayName": "translate-lang",
+	"description": "",
+	"version": "1.0.0",
+	"publisher": "tkaria",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tkaria/TranslateLanguage-VSCode.git"
+	},
+	"bugs": {
+		"url": "https://github.com/tomoki1207/TranslateLanguage-VSCode/issues"
+	},
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"translation",
+		"language"
+	],
+	"activationEvents": [
+		"onCommand:extension.translatelang.ja2en",
+		"onCommand:extension.translatelang.en2ja"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.translatelang.ja2en",
+				"title": "translate-lang:日本語を英語に変換"
+			},
+			{
+				"command": "extension.translatelang.en2ja",
+				"title": "translate-lang:英語を日本語に変換"
+			}
+		]
+	},
+	"scripts": {
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.41.0",
+		"eslint": "^6.6.0",
+		"glob": "^7.1.5",
+		"mocha": "^6.2.2",
+		"typescript": "^3.6.4",
+		"vsce": "^1.71.0",
+		"vscode-test": "^1.2.2"
+	},
+	"dependencies": {
+		"translate-google": "^1.3.5"
+	}
+}
