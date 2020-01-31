@@ -1,15 +1,15 @@
 {
-	"name": "translate-lang",
-	"displayName": "translate-lang",
+	"name": "LanguageTranslation",
+	"displayName": "LanguageTranslation",
 	"description": "",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"publisher": "tkaria",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tkaria/TranslateLanguage-VSCode.git"
+		"url": "https://github.com/TK-Aria/LanguageTranslation-VSCode.git"
 	},
 	"bugs": {
-		"url": "https://github.com/tomoki1207/TranslateLanguage-VSCode/issues"
+		"url": "https://github.com/TK-Aria/LanguageTranslation-VSCode/issues"
 	},
 	"engines": {
 		"vscode": "^1.41.0"
